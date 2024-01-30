@@ -1,3 +1,3 @@
-# Practice-Projects of Frontend development
+# Practice Projects of Frontend development
 
 Project1: Dice Game
