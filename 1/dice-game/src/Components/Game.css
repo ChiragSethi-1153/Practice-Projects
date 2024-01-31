@@ -1,0 +1,53 @@
+.gameplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+
+
+}
+.select-number{
+    display: flex;
+    gap:24px;
+    flex-direction: row;
+}
+
+.box {
+    height: 72px;
+    width: 72px;
+    border: 1px solid black;
+    display: grid;
+    place-items:center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #FFF;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 260px;
+    margin-top: 48px;
+}
+
+.Dice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
